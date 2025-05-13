@@ -75,6 +75,21 @@
             "RTH"
         ]
     },
+
+    {
+        "name": "ethashr5",
+        "coins": [
+            "R5"
+        ]
+    },
+
+    {
+        "name": "rinhash",
+        "coins": [
+            "RIN"
+        ]
+    },
+
     {
         "name": "cryptonight-stc",
         "coins": [
@@ -113,11 +128,20 @@
             "NLM"
         ]
     },
+
     {
         "name": "cryptonight-wow",
         "coins": [
         ]
     },
+
+    {
+        "name": "sha3x",
+        "coins": [
+           "XTM"
+        ]
+    },
+
     {
         "name": "randomx",
         "coins": [
@@ -130,9 +154,18 @@
             "BBP",
             "TABO",
             "MNN",
-            "SAL"
+            "SAL",
+            "SEXT"
         ]
     },
+
+    {
+        "name": "randomy",
+        "coins": [
+            "XCB"
+        ]
+    },
+
     {
         "name": "randomnevo",
         "coins": [
@@ -716,10 +749,17 @@
         ]
     },
 
-        {
+    {
         "name": "blake3-dcr",
         "coins": [
             "DCR"
+        ]
+    },
+
+    {
+        "name": "blake3-lbrt",
+        "coins": [
+            "LBRT"
         ]
     },
 
@@ -1541,6 +1581,7 @@
             "RVC"
         ]
     },
+
     {
         "name": "x16rv2",
         "coins": [
@@ -1555,6 +1596,14 @@
             "Nicehash-X16Rv2"
         ]
     },
+
+    {
+        "name": "x16rs",
+        "coins": [
+            "HAC"
+        ]
+    },
+
     {
         "name": "dynexsolve",
         "coins": [
@@ -1623,6 +1672,8 @@
             "ZELS",
             "REG",
             "AKIC",
+            "GEMMA",
+            "GRIFF",
             "Nicehash-KawPow",
             "Zerg-kawpow",
             "K1Pool-Kawpow"
@@ -2127,6 +2178,14 @@
         "coins":
           [
            "DME"
+          ]
+    },
+
+    {
+        "name": "yespoweradvc",
+        "coins":
+          [
+           "ADVC"
           ]
     },
 
@@ -2840,10 +2899,17 @@
         ]
     },
 
-       {
+    {
         "name": "astrixhash",
         "coins": [
             "AIX"
+        ]
+    },
+
+    {
+        "name": "clchash",
+        "coins": [
+            "CLC"
         ]
     }
 ]

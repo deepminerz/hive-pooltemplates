@@ -1,3 +1,46 @@
+##### 0.6-229@250511 2025-05-11
+*   SRBMiner v2.8.7 (Added algorithm `sha3x` for GPU mining XTM/Tari coin on AMD/Nvidia/Intel, fee 3%; Removed algorithm 'blocx_autolykos2'; Removed everything related to ZIL mining; NOTES: Please, see full changelog at https://github.com/doktor83/SRBMiner-Multi/releases)
+*   miniZ v2.5e (Added support for KarlsenhashV2 for KLS/Karlsen support for AMD and Nvidia, fee 0.95%; Adjusted/improved parameters for dual mining; Removed ZIL support; NOTES: Please, see full changelog at https://miniz.cc/2025/04/27/miniz-v25e-is-out/)
+
+##### 0.6-229@250507 2025-05-07
+*   Rigel miner v1.21.3 (Allow 8GB GPUs mine CFX/Conflux on `octopus` algorithm at a reduced hashrate when DAG becomes too large; Add support for Blackwell datacenter GPUs; Remove support for the following algorithms: 'blocx', 'pyrinhash', 'pyrinhashv2', 'karlsenhash'; NOTES: Please, see full changelog at https://github.com/rigelminer/rigel/releases)
+*   SRBMiner v2.8.6 (Added algorithm `yespoweradvc` for CPU mining ADVC/Adventure coin, fee 0.85%; Huge performance improvement for algorithm `curvehash` on CPUs; Removed algorithm 'hoohashv1'; NOTES: Please, see full changelog at https://github.com/doktor83/SRBMiner-Multi/releases)
+
+##### 0.6-229@250502 2025-05-02
+*   WildRig-Multi v0.43.0 (Implemented `clchash` for AMD Navi and newer, Nvidia and Intel GPUs; NOTES: Please, see full changelog at https://github.com/andru-kun/wildrig-multi/releases)
+
+##### 0.6-229@250430 2025-04-30
+*   lolMiner v1.95a (Added support for continuous mining for Conflux on 8G Nvidia GPUs aka "zombie mode"; Added support for Nvidia RTX 5000 and AMD RX 9000 series please, see full changelog for details at https://github.com/Lolliedieb/lolMiner-releases/releases/tag/1.95a)
+*   SRBMiner v2.8.5 (Major performance improvement for algorithm `clchash` on CPUs; NOTES: Please, see full changelog at https://github.com/doktor83/SRBMiner-Multi/releases)
+
+##### 0.6-229@250424 2025-04-24
+*   SRBMiner v2.8.4 (Added algorithm `clchash` for mining CLC Crypto on CPU, fee 2%; Performance improvement for algorithm 'curvehash' on CPUs; NOTES: Please, see full changelog at https://github.com/doktor83/SRBMiner-Multi/releases)
+*   cpuMiner-Opt-Rplant v5.0.43 (Add `yespowerADVC` algo for mining ADVC/AdventureCoin; NOTES: Please, see full changelog at https://github.com/rplant8/cpuminer-opt-rplant/releases)
+
+##### 0.6-229@250420 2025-04-20
+*   SRBMiner v2.8.3 (Added algorithm `blake3_lbrt` for GPU mining LBRT/Liberty Project on AMD/Nvidia/Intel, fee 2%; Added algorithm `randomy` for CPU mining XCB/Core Coin, fee 1%; Fixed broken algorithm 'ethashr5' on AMD Polaris GPUs; NOTES: Please, see full changelog at https://github.com/doktor83/SRBMiner-Multi/releases)
+
+##### 0.6-229@250415 2025-04-15
+*   SRBMiner v2.8.2 (Added algorithm `ethashr5` for  for GPU mining R5/R5 Network coin on AMD/Nvidia/Intel GPUs, fee 2%; Added algorithm `rinhash`  for CPU mining RIN/Rincoin, fee 1%; NOTES: Please, see full changelog at https://github.com/doktor83/SRBMiner-Multi/releases)
+*   WildRig-Multi v0.42.7 (Fixed crash on start for some systems; NOTES: Please, see full changelog at https://github.com/andru-kun/wildrig-multi/releases)
+*   cpuMiner-Opt-Rplant v5.0.42 (Add `rinhash` algo for mining RIN/Rincoin; NOTES: Please, see full changelog at https://github.com/rplant8/cpuminer-opt-rplant/releases)
+
+##### 0.6-229@250325 2025-03-25
+*   SRBMiner v2.8.1 (Performance improvement on AMD RX 9xxx series for `progpow` and minor improvement for `autolykos2`/`blocx` algorithms; Fixed invalid shares on AMD RX 9xxx series for algorithms: 'xehash', 'fphash', 'cryptonight_gpu'; Removed GPU support for algorithm 'verushash'; NOTES: Please, see full changelog at https://github.com/doktor83/SRBMiner-Multi/releases)
+*   WildRig-Multi v0.42.5 (Improved progpow family algorithms on AMD GPUs; NOTES: Please, see full changelog at https://github.com/andru-kun/wildrig-multi/releases)
+
+##### 0.6-229@250315 2025-03-15
+*   Rigel miner v1.21.2 (Minor efficiency improvements on XEL/Xelis mining; NOTES: Please, see full changelog at https://github.com/rigelminer/rigel/releases)
+*   SRBMiner v2.8.0 (Added support for AMD RDNA4 generation RX 9000-series GPUs. It's initial support with no special optimizations and only for newer algorithms; Performance improvement on AMD RX 5xxx series for algorithms: 'walahash', 'cryptixhash', 'nxlhash' and 'astrixhash'; NOTES: Please, see full changelog at https://github.com/doktor83/SRBMiner-Multi/releases)
+*   WildRig-Multi v0.42.4 (Implemented support of AMD RDNA4 - RX 9000 series GPUs; NOTES: Please, see full changelog at https://github.com/andru-kun/wildrig-multi/releases)
+*   NanoMiner v3.10.0 (Add support Nvidia Blackwell RTX 50xx series GPUs; Fixed dual Zilliqa + some coins on f2pool and k1pool; Removed support Alephium mining; NOTES: Please, see full changelog at https://github.com/nanopool/nanominer/releases)
+*   XMRigCC v3.4.5 as *xmrig-new fork* (Rebase on latest xmrig-6.22.0; NOTES: Please, see full changelog at https://github.com/Bendr0id/xmrigCC/releases)
+
+##### 0.6-229@250225 2025-02-25
+*   OneZeroMiner v1.4.4 (Added support for DynexSolve 2.4; Minor performance improvements on Xelis mining for some Nvidia GPUs; Added support for Nvidia 50 series GPUs; Various fixes & improvements; NOTES: Please, see full changelog at https://github.com/OneZeroMiner/onezerominer/releases/tag/v1.4.4)
+*   BzMiner v23.0.2 (Various improvements & fixes on `Warthog` mining; Add support for Nvidia Blackwell for all algos; Bug fixes and optimizations, see details at https://github.com/bzminer/bzminer/releases)
+*   WildRig-Multi v0.42.3 (Fixed support different pools for `progpow-quai`; NOTES: Please, see full changelog at https://github.com/andru-kun/wildrig-multi/releases)
+
 ##### 0.6-229@250219 2025-02-19
 *   Rigel miner v1.21.0 (Add `progpowz` algorithm for mining ZANO, fee 1%; Improved performance `octopus` algorithm on mining CFX/Conflux for GPUs without tensor cores, e.g. Pascal, Volta, CMPs and minor efficiency improvements on the rest of the cards; NOTES: Please, see full changelog at https://github.com/rigelminer/rigel/releases)
 
